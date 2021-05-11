@@ -1,0 +1,69 @@
+@import '~antd/dist/antd.css';
+html,
+body,
+#fullheight {
+    min-height: 100% !important;
+    height: 100%;
+    color: #75787b;
+}
+body {
+    padding: '0 50px';
+    border: #1890ff;
+}
+
+footer {
+    color: white;
+    background-color: #75787b;
+    bottom: 0;
+    position: fixed;
+    width: 100vw;
+    height: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .fa {
+    width: auto;
+    color: #99A3A4;
+    font-size: 18px;
+}
+
+footer .footer-font {
+    margin-bottom: 15px;
+    bottom: 13px;
+    position: relative;
+}
+.ant-menu.ant-menu-dark .ant-menu-item-selected.customclass {
+    background-color: #d4db58;
+    /*Overriden property*/
+}
+
+.trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.trigger:hover {
+    color: #1890ff;
+}
+
+.logo {
+    height: 32px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px;
+}
+
+.site-layout .site-layout-background {
+    background: #fff;
+}
+
+.ant-layout.ant-layout-has-sider {
+    height: 100vh;
+}
+
+.ant-modal-footer {
+    text-align: center;
+}

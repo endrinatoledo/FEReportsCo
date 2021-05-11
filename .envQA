@@ -1,0 +1,10 @@
+#APP REACT
+REACT_APP_API_BASE_URL = /api/v1
+
+
+#SERVER
+PORT = 3000
+APP_API_BASE_URL = http://10.48.17.83:2001
+
+# Google Login
+REACT_APP_CLIENT_ID_GOOGLE = 139923466002-eov5jn8m2rmtg2oe31shcdev1ql6gntj.apps.googleusercontent.com

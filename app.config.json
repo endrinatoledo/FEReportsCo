@@ -1,0 +1,16 @@
+{
+    "apps" : [
+      {
+        "name"      : "Reportes-PRD",
+        "script"    : "npx",
+        "interpreter": "none",
+        "args": "npm run server"
+      },
+      {
+        "name"      : "Reportes-QA",
+        "script"    : "npx",
+        "interpreter": "none",
+        "args": "npm start"
+      }
+    ]
+  }

@@ -1,0 +1,39 @@
+.email {
+    padding: 10px 10px 5px 10px;
+    border: 1px solid rgb(211, 211, 211);
+    margin: 0px 20px 10px 15px; /*top - left - Botton  - right */
+    width: 90%;
+    
+}
+.border-div{
+   border: 1px solid rgb(211, 211, 211);
+   padding: 15px 25px 15px 15px;
+   height: 300px;
+}
+
+.div-addresse{
+   overflow-x: hidden; /* Hide horizontal scrollbar */
+   /*overflow-y: scroll;*/
+   height: 220px;
+}
+
+.div-addresse::-webkit-scrollbar{
+   width: 3px;
+}
+
+.div-addresse::-webkit-scrollbar-thumb{
+   background: #414141;
+}
+
+.textE{
+   height: 100%;
+}
+
+.editor{
+   margin-right: 10px;
+   margin-left: 10px;
+}
+
+.ck-editor__editable_inline{
+   min-height: 40em;
+}

@@ -1,0 +1,12 @@
+.summary-left{
+    text-align: left;
+    font-weight: bold;
+}
+.summary-right{
+    text-align: right;
+    font-weight: bold;
+}
+.summary-center{
+    text-align: center;
+    font-weight: bold;
+}
